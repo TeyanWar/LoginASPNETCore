@@ -11,6 +11,12 @@ namespace login_aspnet_core.Controllers
     public class UserController : Controller
     {
         // GET: User
+        public ActionResult Login()
+        {
+            return View();
+        }
+
+        // GET: User
         public ActionResult Index()
         {
             return View();

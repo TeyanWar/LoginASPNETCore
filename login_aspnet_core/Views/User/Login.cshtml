@@ -1,0 +1,38 @@
+﻿@model login_aspnet_core.Models.UserModel
+
+@{
+    ViewData["Title"] = "Template";
+}
+
+<div class="row">
+    <div class="col-md-8"></div>
+
+    <div class="border-rounded col-md-4">
+        <br />
+        <h2 class="text-center">@ViewData["Title"]</h2>
+        <br />
+        <form asp-action="Login">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <input asp-for="Username" class="form-control" placeholder="Username"/>
+                <span asp-validation-for="Username" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input asp-for="Password" type="password" class="form-control" placeholder="Password"/>
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Log in" class="btn btn-primary col-md-12" />
+            </div>
+
+            <div class="form-group text-center">
+                <a asp-controller="User" asp-action="Create">Create acount</a>
+            </div>
+        </form>
+
+        @section Scripts {
+            @{ await Html.RenderPartialAsync("_ValidationScriptsPartial"); }
+        }
+    </div>
+</div>

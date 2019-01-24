@@ -28,3 +28,4 @@ E:\projects\login_aspnet_core\login_aspnet_core\obj\Debug\netcoreapp2.2\LoginASP
 E:\projects\login_aspnet_core\login_aspnet_core\obj\Debug\netcoreapp2.2\LoginASPNETCore.dll
 E:\projects\login_aspnet_core\login_aspnet_core\obj\Debug\netcoreapp2.2\LoginASPNETCore.pdb
 E:\projects\login_aspnet_core\login_aspnet_core\obj\Debug\netcoreapp2.2\LoginASPNETCore.csproj.CopyComplete
+E:\projects\login_aspnet_core\login_aspnet_core\obj\Debug\netcoreapp2.2\Razor\Views\User\Login.g.cshtml.cs

@@ -1,0 +1,6 @@
+﻿
+.border-rounded {
+    /*border: 1px solid;*/
+    box-shadow: rgb(159, 159, 159) 2px 2px 2px 2px;
+    border-radius: 5px;
+}
