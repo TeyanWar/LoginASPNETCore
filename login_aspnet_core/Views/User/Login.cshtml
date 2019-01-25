@@ -1,4 +1,4 @@
-﻿@model login_aspnet_core.Models.UserModel
+﻿@model LoginData.Models.User
 
 @{
     ViewData["Title"] = "Template";
@@ -14,11 +14,11 @@
         <form asp-action="Login">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
-                <input asp-for="Username" class="form-control" placeholder="Username"/>
+                <input asp-for="Username" class="form-control" placeholder="Username" />
                 <span asp-validation-for="Username" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <input asp-for="Password" type="password" class="form-control" placeholder="Password"/>
+                <input asp-for="Password" type="password" class="form-control" placeholder="Password" />
                 <span asp-validation-for="Password" class="text-danger"></span>
             </div>
 
@@ -27,7 +27,7 @@
             </div>
 
             <div class="form-group text-center">
-                <a asp-controller="User" asp-action="Create">Create acount</a>
+                <a asp-controller="User" asp-action="Save">Create acount</a>
             </div>
         </form>
 

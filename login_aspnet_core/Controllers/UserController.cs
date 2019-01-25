@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using login_aspnet_core.Models;
+﻿using LoginData.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -29,7 +25,7 @@ namespace login_aspnet_core.Controllers
         }
 
         // GET: User/Create
-        public ActionResult Create()
+        public ActionResult Save()
         {
             return View();
         }
@@ -37,7 +33,7 @@ namespace login_aspnet_core.Controllers
         // POST: User/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create(UserModel user)
+        public ActionResult Create(User user)
         {
             try
             {

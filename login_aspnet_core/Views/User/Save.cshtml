@@ -1,4 +1,4 @@
-﻿@model login_aspnet_core.Models.UserModel
+﻿@model LoginData.Models.User
 
 @{
     ViewData["Title"] = "New Account";
@@ -11,7 +11,7 @@
         <br />
         <h2 class="text-center">@ViewData["Title"]</h2>
         <br />
-        <form asp-action="Create">
+        <form asp-action="Save">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
                 <label asp-for="FullName" class="control-label">Full Name</label>
@@ -42,4 +42,4 @@
             @{ await Html.RenderPartialAsync("_ValidationScriptsPartial"); }
         }
     </div>
-    </div>
+</div>

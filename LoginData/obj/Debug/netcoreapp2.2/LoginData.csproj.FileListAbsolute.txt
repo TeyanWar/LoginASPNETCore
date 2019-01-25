@@ -1,0 +1,10 @@
+E:\projects\login_aspnet_core\LoginData\bin\Debug\netcoreapp2.2\LoginData.deps.json
+E:\projects\login_aspnet_core\LoginData\bin\Debug\netcoreapp2.2\LoginData.runtimeconfig.json
+E:\projects\login_aspnet_core\LoginData\bin\Debug\netcoreapp2.2\LoginData.runtimeconfig.dev.json
+E:\projects\login_aspnet_core\LoginData\bin\Debug\netcoreapp2.2\LoginData.dll
+E:\projects\login_aspnet_core\LoginData\bin\Debug\netcoreapp2.2\LoginData.pdb
+E:\projects\login_aspnet_core\LoginData\obj\Debug\netcoreapp2.2\LoginData.csproj.CoreCompileInputs.cache
+E:\projects\login_aspnet_core\LoginData\obj\Debug\netcoreapp2.2\LoginData.AssemblyInfoInputs.cache
+E:\projects\login_aspnet_core\LoginData\obj\Debug\netcoreapp2.2\LoginData.AssemblyInfo.cs
+E:\projects\login_aspnet_core\LoginData\obj\Debug\netcoreapp2.2\LoginData.dll
+E:\projects\login_aspnet_core\LoginData\obj\Debug\netcoreapp2.2\LoginData.pdb

@@ -19,12 +19,12 @@ using login_aspnet_core;
 #line default
 #line hidden
 #line 2 "E:\projects\login_aspnet_core\login_aspnet_core\Views\_ViewImports.cshtml"
-using login_aspnet_core.Models;
+using LoginData.Models;
 
 #line default
 #line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"99464617055fdb505bb0bb7fd91f9b14f7b0d030", @"/Views/Home/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"97d68eb3dd8b328392d79ae4f203e680a6f08bb4", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"a0e3a35e598d3dcec1db9a3bf30b1990ccbfd14b", @"/Views/_ViewImports.cshtml")]
     public class Views_Home_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998
