@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
 namespace LoginData.Models
@@ -21,5 +20,7 @@ namespace LoginData.Models
         public string Password { get; set; }
         
         public DateTime LastAccess { get; set; }
+
+        public Role Role { get; set; }
     }
 }

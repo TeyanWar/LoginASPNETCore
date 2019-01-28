@@ -1,0 +1,21 @@
+﻿@model LoginASPNETCore.Views.Role.IndexModel
+
+<div>
+    <table>
+        <thead>
+            <tr>
+                <td>Name</td>
+                <td>Description</td>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var obj in @Model.Roles)
+            {
+                <tr>
+                    <td>@obj.Name</td>
+                    <td>@obj.Description</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

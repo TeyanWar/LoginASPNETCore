@@ -14,7 +14,6 @@ namespace LoginData
         string GetUsername(int id);
         string GetLastAccess(int id);
 
-        //with this code you get a related object (Foreign key)
-        //ClassName ObjectName(int id);
+        Role GetRole(int id);
     }
 }

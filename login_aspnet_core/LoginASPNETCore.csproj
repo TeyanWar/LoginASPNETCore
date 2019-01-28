@@ -17,6 +17,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\LoginData\LoginData.csproj" />
+    <ProjectReference Include="..\LoginServices\LoginServices.csproj" />
   </ItemGroup>
 
 </Project>

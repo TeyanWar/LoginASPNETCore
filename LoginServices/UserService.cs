@@ -1,25 +1,38 @@
 ﻿using LoginData;
 using LoginData.Models;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace LoginServices
 {
     public class UserService : IUser
     {
+
+        private AppDbContext _context;
+
+        public UserService(AppDbContext context)
+        {
+            _context = context;
+        }
+
         public void Add(User newUser)
         {
-            throw new NotImplementedException();
+            _context.Add(newUser);
+            _context.SaveChanges();
         }
 
         public IEnumerable<User> GetAll()
         {
-            throw new NotImplementedException();
+            return _context.Users
+                .Include(user => user.Role);
         }
 
         public User GetById(int id)
         {
-            throw new NotImplementedException();
+            return GetAll()
+                .FirstOrDefault(user => user.Id == id);
         }
 
         public string GetEmail(int id)
@@ -35,6 +48,11 @@ namespace LoginServices
         public string GetLastAccess(int id)
         {
             throw new NotImplementedException();
+        }
+
+        public Role GetRole(int id)
+        {
+            return GetById(id).Role;
         }
 
         public string GetUsername(int id)

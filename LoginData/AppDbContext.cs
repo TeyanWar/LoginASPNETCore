@@ -8,7 +8,8 @@ namespace LoginData
         public AppDbContext(DbContextOptions options) : base(options) { }
 
         public DbSet<User> Users { get; set; }
-        //public DbSet<Person> Persons { get; set; }
+        public DbSet<Role> Roles { get; set; }
+        public DbSet<Privilege> Privileges { get; set; }
     }
 
 }

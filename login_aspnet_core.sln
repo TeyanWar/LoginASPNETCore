@@ -6,7 +6,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoginASPNETCore", "login_as
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoginData", "LoginData\LoginData.csproj", "{E91A34B8-5CFE-43DE-8345-D7A7BFCDC33E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoginServices", "LoginServices\LoginServices.csproj", "{7B009179-61E3-42AA-A26C-52EC42A6FDA6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoginServices", "LoginServices\LoginServices.csproj", "{7B009179-61E3-42AA-A26C-52EC42A6FDA6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

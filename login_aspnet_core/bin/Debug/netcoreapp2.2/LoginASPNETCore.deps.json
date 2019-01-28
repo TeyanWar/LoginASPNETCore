@@ -25,6 +25,7 @@
       "LoginASPNETCore/1.0.0": {
         "dependencies": {
           "LoginData": "1.0.0",
+          "LoginServices": "1.0.0",
           "Microsoft.AspNetCore.App": "2.2.0",
           "Microsoft.AspNetCore.Razor.Design": "2.2.0",
           "Microsoft.EntityFrameworkCore": "2.2.1",
@@ -638,6 +639,17 @@
         },
         "compile": {
           "LoginData.dll": {}
+        }
+      },
+      "LoginServices/1.0.0": {
+        "dependencies": {
+          "LoginData": "1.0.0"
+        },
+        "runtime": {
+          "LoginServices.dll": {}
+        },
+        "compile": {
+          "LoginServices.dll": {}
         }
       },
       "Microsoft.AspNet.WebApi.Client/5.2.6": {
@@ -3813,6 +3825,11 @@
       "hashPath": "system.linq.queryable.4.0.1.nupkg.sha512"
     },
     "LoginData/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LoginServices/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
